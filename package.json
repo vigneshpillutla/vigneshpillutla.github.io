@@ -1,0 +1,22 @@
+{
+  "name": "vigneshpiilutla.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vigneshpillutla/vigneshpiilutla.github.io.git"
+  },
+  "author": "Vignesh Pillutla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vigneshpillutla/vigneshpiilutla.github.io/issues"
+  },
+  "homepage": "https://github.com/vigneshpillutla/vigneshpiilutla.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
