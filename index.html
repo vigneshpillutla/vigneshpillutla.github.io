@@ -1,17 +1,63 @@
 <!DOCTYPE html>
-
 <html>
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            orange: '#F08358',
+                            black: '#323232'
+                        }
+                    }
+                }
+            }
+        </script>
     </head>
+
     <body>
-        <h1>Hi I am Vignesh!</h1>
-        
-        <script src="" async defer></script>
+        <nav id="navbar" class="flex items-center justify-between p-4 border-b-2 border-slate-100">
+            <span class="text-orange text-2xl">Vignesh</span>
+            <ul class="flex gap-8">
+                <li>Home</li>
+                <li>Skills</li>
+                <li>Education</li>
+                <li>Experience</li>
+                <li>Projects</li>
+            </ul>
+            <span class="flex gap-4 mr-2">
+                <a href="https://www.linkedin.com/in/vignesh-pillutla/" target="_blank">
+                    <img class="h-8" src="images/linkedin 1.svg" alt="Linkedin profile">
+                </a>
+                <a href="https://github.com/vigneshpillutla" target="_blank">
+                    <img class="h-8" src="images/github 1.svg" alt="Github profile">
+                </a>
+            </span>
+        </nav>
+
+        <main id="hero" class="grid grid-cols-2 gap-3 pt-3">
+            <div class="flex flex-col items-center justify-center text-6xl text-black">
+                <h1>Hello, I am </h1>
+                <h1>Vignesh</h1>
+            </div>
+            <div class="flex justify-center items-center">
+
+                <img  class="w-3/5 " src="images/developer.svg" alt="">
+            </div>
+        </main>
+
+        <script src="index.js" async defer></script>
     </body>
+
 </html>
