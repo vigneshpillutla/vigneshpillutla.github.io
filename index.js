@@ -74,6 +74,8 @@ const experiences = [
   }
 ]
 
+const projects=[]
+
 // Elements
 const navbar = document.getElementById("navbar");
 const heroSection = document.getElementById('hero');
